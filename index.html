@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPARTAK</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://wsxzaq127.github.io/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header__container container">
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+                <p>
+                    SPARTAK
+                </p>
+            </div>
+            <ul class="menu">
+                <li class="menu__item active">
+                    <a href="">Главная</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#about">О команде</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#video">Видео</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#galary">Галерея</a>
+                </li>
+                <li class="menu__item">
+                    <a href="contact.html">Контакты</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero__container container">
+                <img src="img/comanda.png" alt="" class="hero__img">
+                <div class="hero__info">
+                    <h1>Мы команда Спартак</h1>
+                    <p>«Спартак» — российский профессиональный футбольный клуб из Москвы. Основан 18 апреля 1922 года
+                        под названием «Московский клуб спорта» (МКС). </p>
+                    <a href="" class="hero__link">Свяжитесь с нами</a>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="about__container container">
+                <h2>О команде</h2>
+                <div class="about__content">
+                    <div class="about__info">
+                        <h3>Наши сильные стороны</h3>
+                        <ul class="about__list">
+                            <li class="about__item">
+                                <h4>Ультрас</h4>
+                                <div class="progress">
+                                    <div class="progress-1"></div>
+                                </div>
+                            </li>
+                            <li class="about__item">
+                                <h4>Состав</h4>
+                                <div class="progress">
+                                    <div class="progress-1"></div>
+                                </div>
+                            </li>
+                            <li class="about__item">
+                                <h4>Любовь фанатов</h4>
+                                <div class="progress">
+                                    <div class="progress-1"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <img src="img/ultras.png" alt="" class="about__img">
+                </div>
+            </div>
+        </section>
+        <section class="video" id="video">
+            <div class="video__container container">
+                <h2>Видео</h2>
+                <div class="video__content">
+                    <iframe src="https://rutube.ru/play/embed/fc3e0eda365c34567f394a0a620939c2/?skinColor=e53935"
+                        style="border: none;" allow="clipboard-write; autoplay" allowFullScreen></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="galary" id="galary">
+            <div class="galary__container container">
+                <h2>Галерея</h2>
+                <ul class="galary__list">
+                    <li class="galary__item">
+                        <a href="img/img1.png" class="lightzoom">
+                            <img src="img/img1.png" alt="">
+                        </a>
+                    </li>
+                    <li class="galary__item">
+                        <a href="img/img2.png" class="lightzoom">
+                            <img src="img/img2.png" alt="">
+                        </a>
+                    </li>
+                    <li class="galary__item">
+                        <a href="img/img3.png" class="lightzoom">
+                            <img src="img/img3.png" alt="">
+                        </a>
+                    </li>
+                    <li class="galary__item">
+                        <a href="img/img4.png" class="lightzoom">
+                            <img src="img/img4.png" alt="">
+                        </a>
+                    </li>
+                    <li class="galary__item">
+                        <a href="img/img5.png" class="lightzoom">
+                            <img src="img/img5.png" alt="">
+                        </a>
+                    </li>
+                    <li class="galary__item">
+                        <a href="img/img6.png" class="lightzoom">
+                            <img src="img/img6.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer__container container">
+            <div class="footer__content">
+                <h3>Аркадий Аркадиевич</h3>
+                <p>(с) 2026. Все права защищены.</p>
+            </div>
+            <div class="footer__icons">
+                <a href="">
+                    <img src="img/telegram.svg" alt="">
+                </a>
+                <a href="">
+                    <img src="img/vk.svg" alt="">
+                </a>
+                <a href="">
+                    <img src="img/discord.svg" alt="">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://wsxzaq127.github.io/lightzoom.js"></script>
+    <script type="text/javascript">
+        jQuery('.lightzoom').lightzoom({ speed: 400, viewTitle: true });
+    </script>
+</body>
+
+</html>
